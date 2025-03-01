@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    output: 'export',
+    images: {
+      unoptimized: true, // Required if using Next.js images on GitHub Pages
+    },
+  };
+  
+  export default nextConfig;
+  
